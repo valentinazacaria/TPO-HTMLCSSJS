@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/784f6ff94f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <title>La Sacerdotisa Tienda</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-header">
+            La Sacerdotisa
+        </h1>
+        <!-- MENU -->
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C238.99,163.33 365.97,1.50 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #F4EFFA;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+        <!-- Formulario de contacto -->
+        <form class=" form" id="form">
+            <div class="contact-form ">
+                <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Ingrese su nombre">
+                <input type="text" name="apellido" id="apellido" maxlength="30" placeholder="Ingrese su apellido">
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electrónico">
+                <textarea name="consulta" id="consulta" cols="30" rows="10"
+                    placeholder="Escriba su consulta"></textarea>
+                <p>Quiero recibir descuentos y promociones exclusivas <input type="checkbox"></p>
+                <input class="bt-form" name="enviar" id="enviar" type="submit" value="Enviar">
+            </div>
+        </form>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="contenedor-info-footer">
+            <div class="content-info-foo">
+                <h4>Teléfono</h4>
+                <p>1547856932</p>
+            </div>
+            <div class="content-info-foo">
+                <h4>Email</h4>
+                <p>contacto@lasardotisa.com</p>
+            </div>
+            <div class="content-info-foo">
+                <h4>Local</h4>
+                <p>Rosario 225, CABA.</p>
+            </div>
+        </div>
+
+        <div class="contenedor-redes-foo">
+            <div class="content-redes-foo">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <h2 class="titulo-final">&copy; La Sacerdotisa <i class="fa-solid fa-gem"></i></h2>
+
+    </footer>
+
+    <script src="validacion_form.js"></script>
+</body>
+
+</html>
